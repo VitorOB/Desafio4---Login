@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+/* font-family: "Merriweather", serif;
+    font-family: "Lato", sans-serif;
+*/
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.img__side {
+  background-color: #d1f5e7;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 50%;
+}
+
+
+.login {
+  display: flex;
+  padding: 10px;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+}
+
+.login__container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.login__header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.login__header h2 {
+  color: var(--dark);
+  font-size: 20px;
+}
+.login__header h1 {
+  color: var(--dark);
+  font-size: 32px;
+}
+
+.form__container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.form__input {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.input {
+  display: flex;
+  width: 100%;
+  padding: 16px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  border: 1px solid #e8e8e8;
+  background: #f7fafc;
+}
+
+.radio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.radio__input {
+  display: flex;
+  gap: 10px;
+}
+
+.fsenha {
+  color: var(--green);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+button {
+  display: flex;
+  width: 100%;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 4px;
+  color: var(--white300);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn__entrar {
+  background-color: var(--green);
+}
+
+.btn__login {
+  background-color: var(--dark);
+}
+
+p {
+  color: var(--dark);
+  text-align: center;
+  font-size: 20px;
+}
+
+.cadastrar {
+  color: var(--green);
+  cursor: pointer;
+}

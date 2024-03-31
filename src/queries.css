@@ -1,0 +1,14 @@
+@media (769px <= width <= 1024px) {
+    .img__side{
+        display: none;
+    }
+}
+
+@media (360px <= width <= 768px) {
+    .img__side{
+        display: none;
+    }
+    .login{
+        width: 100%;
+    }
+}
