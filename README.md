@@ -5,6 +5,6 @@ Foi desenvolvido com:
 - HTML
 - CSS - Flexbox
 
-Deploy:
+Deploy: https://vitorob.github.io/Desafio4---Login/
 
-<img src="./image/print-tela.gif"
+<img src="./image/print-tela.gif">
